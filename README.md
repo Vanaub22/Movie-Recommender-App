@@ -7,7 +7,7 @@ Some of the main points to mention about this project are as follows:
  - The **tmdb 5000 movies and credits datasets** have been used: [Kaggle Dataset Link](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
  - It utilizes the technique of **Text Vectorization**.
  - There are various ways to vectorize text, however, I have chosen the simple but effective technique of **Bag of Words** .
- - Some of the major python modules used are **numpy**, **pandas**, **nltk**, **pickle**, **tmdbv3api**, **requests** and **streamlit**
+ - Some of the major python modules used are **numpy**, **pandas**, **nltk**, **pickle**, **tmdbv3api**, **requests** and **streamlit**.
 
 **AS OF NOW, I HAVE NOT HOSTED THE STREAMLIT WEB APP.**
 However, the streamlit app is working fine on my local machine and I will be attaching a working walk-through demo video in the links section soon enough.

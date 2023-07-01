@@ -5,9 +5,10 @@ Some of the main points to mention about this project are as follows:
 
  - It is a content-based system of recommendation.
  - The **tmdb 5000 movies and credits datasets** have been used: [Kaggle Dataset Link](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
- - It utilizes the technique of **Text Vectorization**.
+ - It utilizes the technique of **Text Vectorization** using tags from the movie overview, crew details, genre etc.
  - There are various ways to vectorize text, however, I have chosen the simple but effective technique of **Bag of Words** .
  - Some of the major python modules used are **numpy**, **pandas**, **nltk**, **pickle**, **tmdbv3api**, **requests** and **streamlit**.
+ - **Cosine Distance** has been used as the criteria for determining similarity (closeness) between the vectors. (In higher dimensional spaces, Euclidean distance is not a differentiating factor) 
 
 **AS OF NOW, I HAVE NOT HOSTED THE STREAMLIT WEB APP.**
 However, the streamlit app is working fine on my local machine and I will be attaching a working walk-through demo video in the links section soon enough.

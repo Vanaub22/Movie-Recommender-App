@@ -29,7 +29,7 @@ st.title('Movie Recommender Application:')
 movies_dict=pickle.load(open('movies_dictionary.pkl','rb'))
 similarity=pickle.load(open('similarity.pkl','rb'))
 movies=pd.DataFrame(movies_dict)
-option=st.selectbox('Type Something Nigga',movies['title'].values)
+option=st.selectbox('Enter a Movie',movies['title'].values)
 if st.button('Find Recommendations'):
     recommendations,posters=recommend(option)
     st.write("Top 5 Movie Recommendations based on your choice:")

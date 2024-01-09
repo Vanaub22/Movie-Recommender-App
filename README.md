@@ -1,4 +1,8 @@
+
 ## Content-based Movie Recommender Application
+
+Try out the [Movie-Recommender Application](https://movie-recommender-app.streamlit.app/). (Deployed using **streamlit**)
+
 This Repository contains a Machine Learning Project. It is a content-based movie recommender system which uses the **tmdb 5000 movies and credits** kaggle dataset to recommend 5 movies based on a movie watched. 
 
 Some of the main points to mention about this project are as follows:
@@ -10,8 +14,7 @@ Some of the main points to mention about this project are as follows:
  - Some of the major python modules used are **numpy**, **pandas**, **nltk**, **pickle**, **tmdbv3api**, **requests** and **streamlit**.
  - **Cosine Distance** has been used as the criteria for determining similarity (closeness) between the vectors. (In higher dimensional spaces, Euclidean distance is not a differentiating factor) 
 
-**AS OF NOW, I HAVE NOT HOSTED THE STREAMLIT WEB APP.**
-However, the streamlit app is working fine on my local machine and I will be attaching a working walk-through demo video in the links section soon enough.
+### Steps to run and execute the application locally:
 
 To execute the file, simply clone the repository in your local machine, download the datasets from the [Drive Link](https://shorturl.at/bmHJ6) and execute the entire .ipynb file. Once it is done, you will have two files **similarity.pkl** and **movie_dictionary.pkl**. After this, simply open the terminal and execute **app.py**. 
 
